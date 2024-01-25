@@ -10020,3 +10020,43 @@ height: 50px;
  
 }
 /* button play & app store */
+
+/* select langue */
+
+
+
+#language-select {
+  padding: 8px; /* Add padding for better appearance */
+  border: 2px solid #d6151a; /* Add a default border */
+  border-radius: 4px; /* Add rounded corners */
+
+}
+
+
+/* Style for the select element when it's hovered */
+#language-select:hover {
+  border-color: #d6151a; /* Change border color on hover */
+  
+}
+
+
+#aside{
+  padding: 20px 15px;
+  color: #44425A;
+  font-size: 18px;
+  font-weight: 500;
+  outline: none;
+ 
+}
+/* select langue */
+
+
+/* form */
+
+.button-form-container {
+  text-align: center;
+}
+
+.button-form {
+  /* Add any additional styling you want for the button */
+}
