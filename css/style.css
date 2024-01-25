@@ -152,13 +152,13 @@ sup {
 }
 
 a {
-  color: #FF6600;
+  color: red;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #b34700;
+  color: red;
   text-decoration: underline;
 }
 
@@ -2371,34 +2371,34 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #FF6600;
-  border-color: #FF6600;
+  background-color: #d6151a;
+  border-color: #d6151a;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #d95700;
-  border-color: #cc5200;
+  background-color: #d6151a;
+  border-color: #d6151a;
 }
 
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #d95700;
-  border-color: #cc5200;
+  background-color: #d6151a;
+  border-color: #d6151a;
   box-shadow: 0 0 0 0.2rem rgba(255, 125, 38, 0.5);
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
-  background-color: #FF6600;
-  border-color: #FF6600;
+  background-color: #d6151a;
+  border-color: #d6151a;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #cc5200;
-  border-color: #bf4d00;
+  background-color: #d6151a;
+  border-color: #d6151a;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
@@ -2666,14 +2666,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #FF6600;
-  border-color: #FF6600;
+  color: #d6151a;
+  border-color: #d6151a;
 }
 
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #FF6600;
-  border-color: #FF6600;
+  background-color: #d6151a;
+  border-color: #d6151a;
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
@@ -2681,15 +2681,15 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-  color: #FF6600;
+  color: #d6151a;
   background-color: transparent;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
 .show > .btn-outline-primary.dropdown-toggle {
   color: #fff;
-  background-color: #FF6600;
-  border-color: #FF6600;
+  background-color: #d6151a;
+  border-color: #d6151a;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
@@ -3221,7 +3221,7 @@ input[type="button"].btn-block {
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #FF6600;
+  background-color: #d6151a;
 }
 
 .dropdown-item.disabled, .dropdown-item:disabled {
@@ -3580,8 +3580,8 @@ input[type="button"].btn-block {
 
 .custom-control-input:checked ~ .custom-control-label::before {
   color: #fff;
-  border-color: #FF6600;
-  background-color: #FF6600;
+  border-color: #d6151a;
+  background-color: #d6151a;
 }
 
 .custom-control-input:focus ~ .custom-control-label::before {
@@ -3645,8 +3645,8 @@ input[type="button"].btn-block {
 }
 
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before {
-  border-color: #FF6600;
-  background-color: #FF6600;
+  border-color: #d6151a;
+  background-color: #d6151a;
 }
 
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::after {
@@ -3872,7 +3872,7 @@ input[type="button"].btn-block {
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
-  background-color: #FF6600;
+  background-color: #d6151a;
   border: 0;
   border-radius: 1rem;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3902,7 +3902,7 @@ input[type="button"].btn-block {
 .custom-range::-moz-range-thumb {
   width: 1rem;
   height: 1rem;
-  background-color: #FF6600;
+  background-color: #d6151a;
   border: 0;
   border-radius: 1rem;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3935,7 +3935,7 @@ input[type="button"].btn-block {
   margin-top: 0;
   margin-right: 0.2rem;
   margin-left: 0.2rem;
-  background-color: #FF6600;
+  background-color: #d6151a;
   border: 0;
   border-radius: 1rem;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -4074,7 +4074,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #FF6600;
+  background-color: #d6151a;
 }
 
 .nav-fill > .nav-link,
@@ -4741,7 +4741,7 @@ input[type="button"].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #FF6600;
+  color: #d6151a;
   background-color: #fff;
   border: 1px solid #dee2e6;
 }
@@ -4773,9 +4773,9 @@ input[type="button"].btn-block {
 
 .page-item.active .page-link {
   z-index: 3;
-  color: #fff;
-  background-color: #FF6600;
-  border-color: #FF6600;
+  color: #d6151a;
+  background-color: white ;
+  border-color: red;
 }
 
 .page-item.disabled .page-link {
@@ -4858,7 +4858,7 @@ a.badge:hover, a.badge:focus {
 
 .badge-primary {
   color: #fff;
-  background-color: #FF6600;
+  background-color: darkred;
 }
 
 a.badge-primary:hover, a.badge-primary:focus {
@@ -6355,7 +6355,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #FF6600 !important;
+  background-color: red !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9525,7 +9525,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #FF6600 !important;
+  color: #d6151a !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9772,7 +9772,7 @@ h6,
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #FF6600;
+  color: #d6151a;
 }
 
 @media (max-width: 991.98px) {
@@ -9817,7 +9817,7 @@ h6,
 }
 
 .carousel-indicators .active {
-  background: #FF6600;
+  background: #d6151a;
 }
 
 @media (max-width: 991.98px) {
@@ -9910,7 +9910,7 @@ h6,
   width: 15px;
   height: 15px;
   border-radius: 15px;
-  background: #FF6600;
+  background:#d6151a;
 }
 
 .testimonial-carousel .owl-dot::after {
@@ -9920,7 +9920,7 @@ h6,
   right: -5px;
   bottom: -5px;
   left: -5px;
-  border: 2px solid #FF6600;
+  border: 2px solid #d6151a;
   border-radius: 20px;
 }
 
@@ -9955,4 +9955,108 @@ h6,
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+
+
+
+/* logo header */
+.logoheader{
+
+
+height: 50px;
+}
+/* logo header */
+
+
+
+
+/* button play & app store */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+#astore{
+  color: white;
+}
+.download{
+	width: 200px;
+	height: 75px;
+	background: #000;
+	float: left;
+	border-radius: 4px;
+	position: relative;
+	color: #fff;
+	cursor: pointer;
+	border: 1px solid #fff;
+
+ margin-left: 100px;
+}
+.download .fab{
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 15%;
+	transform: translate(-50%, -50%);
+  margin-right: 50px;
+}
+.p1, .p2{
+	position: absolute;
+	left: 70px;
+
+}
+.p1{
+	top: 20px;
+	font-size: 12px;
+}
+.p2{
+	top: 35px;
+	font-size: 16px;
+}
+.download:hover{
+	filter: invert(100%);
+}
+.icon {
+  font-size: 36px;
+ 
+}
+/* button play & app store */
+
+/* select langue */
+
+
+
+#language-select {
+  padding: 8px; /* Add padding for better appearance */
+  border: 2px solid #d6151a; /* Add a default border */
+  border-radius: 4px; /* Add rounded corners */
+
+}
+
+
+/* Style for the select element when it's hovered */
+#language-select:hover {
+  border-color: #d6151a; /* Change border color on hover */
+  
+}
+
+
+#aside{
+  padding: 20px 15px;
+  color: #44425A;
+  font-size: 18px;
+  font-weight: 500;
+  outline: none;
+ 
+}
+/* select langue */
+
+
+/* form */
+
+.button-form-container {
+  text-align: center;
+}
+
+.button-form {
+  /* Add any additional styling you want for the button */
 }
