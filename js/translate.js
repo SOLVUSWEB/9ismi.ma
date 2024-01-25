@@ -12,8 +12,8 @@ document.addEventListener('DOMContentLoaded', function () {
                     translation: {
                         title: 'Your Title Here',
                         office: 'Office',
-                        header: 'This is a Header',
-                        mediumHeader: 'This is a Medium Header',
+                        email: 'Email',
+                        call: 'Call Us',
                         paragraph1: 'This is a new paragraph!',
                         paragraph2: 'This is a new paragraph!',
                         boldItalics: 'This is a new sentence without a paragraph break, in bold italics.',
@@ -23,8 +23,8 @@ document.addEventListener('DOMContentLoaded', function () {
                     translation: {
                         title: 'Votre titre ici',
                         office: 'Bureau',
-                        header: 'Ceci est un en-tête',
-                        mediumHeader: 'Ceci est un en-tête moyen',
+                        email: 'Email',
+                        call: 'Appel',
                         paragraph1: 'Ceci est un nouveau paragraphe !',
                         paragraph2: 'Ceci est un nouveau paragraphe !',
                         boldItalics: 'Ceci est une nouvelle phrase sans saut de paragraphe, en gras italique.',
@@ -34,8 +34,8 @@ document.addEventListener('DOMContentLoaded', function () {
                     translation: {
                         title: 'حريعسيعبيديكيدمپنهدلوسن',
                        office: 'مكتب',
-                        header: 'حريعسيعبيديكيدمپنهدلوسن',
-                        mediumHeader: 'حريعسيعبيديكيدمپنهدلوسن',
+                        email: 'حريعدلوسن',
+                        call: 'حريعلوسن',
                         paragraph1: 'حريعسيعبيديكيدمپنهدلوسن!',
                         paragraph2: 'حريعسيعبيديكيدمپنهدلوسن!',
                         boldItalics: 'حريعسيعبيديكيدمپنهدلوسن',

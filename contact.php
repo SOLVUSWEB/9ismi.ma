@@ -1,3 +1,4 @@
+<?php include 'phpmailer/sendemail.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,6 +27,10 @@
 </head>
 
 <body>
+
+
+
+
     <!-- Topbar Start -->
     <div class="container-fluid d-none d-lg-block">
         <div class="row align-items-center py-4 px-xl-5">
@@ -72,27 +77,26 @@
     <!-- Navbar Start -->
     <div class="container-fluid">
         <div class="row border-top px-xl-5">
+              
             <div class="col-lg-3 d-none d-lg-block">
+                 <!--
                 <a class="d-flex align-items-center justify-content-between bg-secondary w-100 text-decoration-none" data-toggle="collapse" href="#navbar-vertical" style="height: 67px; padding: 0 30px;">
-                    <h5 class="text-primary m-0"><i class="fa fa-book-open mr-2"></i>Subjects</h5>
+                    <h5 class="text-primary m-0"><i class="fa fa-book-open mr-2"></i>Languages</h5>
                     <i class="fa fa-angle-down text-primary"></i>
                 </a>
                 <nav class="collapse position-absolute navbar navbar-vertical navbar-light align-items-start p-0 border border-top-0 border-bottom-0 bg-light" id="navbar-vertical" style="width: calc(100% - 30px); z-index: 9;">
                     <div class="navbar-nav w-100">
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link" data-toggle="dropdown">Web Design <i class="fa fa-angle-down float-right mt-1"></i></a>
-                            <div class="dropdown-menu position-absolute bg-secondary border-0 rounded-0 w-100 m-0">
-                                <a href="" class="dropdown-item">HTML</a>
-                                <a href="" class="dropdown-item">CSS</a>
-                                <a href="" class="dropdown-item">jQuery</a>
-                            </div>
-                        </div>
-                        <a href="" class="nav-item nav-link">Apps Design</a>
-                        <a href="" class="nav-item nav-link">Marketing</a>
-                        <a href="" class="nav-item nav-link">Research</a>
-                        <a href="" class="nav-item nav-link">SEO</a>
+                        <a href="" class="nav-item nav-link"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Flag_of_Morocco_%28blue_green%29.svg/640px-Flag_of_Morocco_%28blue_green%29.svg.png" alt="France" height="13px" width="20px" >&nbsp; Arabe </a> 
+                        <a href="" class="nav-item nav-link"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Berber_flag.svg/1200px-Berber_flag.svg.png" alt="France" height="13px" width="20px">&nbsp; Amazigh</a>
+                        <a href="" class="nav-item nav-link"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/640px-Flag_of_the_United_Kingdom_%281-2%29.svg.png" alt="France" height="13px" width="20px">&nbsp; English</a>
+                        <a href="" class="nav-item nav-link"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/30px-Flag_of_France.svg.png" alt="France" height="13px" width="20px">&nbsp; Francais</a>
+                        <a href="" class="nav-item nav-link"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/640px-Bandera_de_Espa%C3%B1a.svg.png" alt="France" height="13px" width="20px">&nbsp; Spanish</a>
+                        <a href="" class="nav-item nav-link"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/1280px-Flag_of_Germany.svg.png" alt="France" height="13px" width="20px">&nbsp; Germany</a>
+                       
                     </div>
                 </nav>
+                   -->
+                   
             </div>
             <div class="col-lg-9">
                 <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0">
@@ -104,20 +108,49 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav py-0">
-                            <a href="index.html" class="nav-item nav-link">Home</a>
-                            <a href="about.html" class="nav-item nav-link">About</a>
-                            <a href="course.html" class="nav-item nav-link">Courses</a>
-                            <a href="teacher.html" class="nav-item nav-link">Teachers</a>
+                            <a href="index.html" class="nav-item nav-link ">Home</a>
+                            
+                            <a href="course.html" class="nav-item nav-link">Offers</a>
+
                             <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Blog</a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Languages</a>
                                 <div class="dropdown-menu rounded-0 m-0">
-                                    <a href="blog.html" class="dropdown-item">Blog List</a>
-                                    <a href="single.html" class="dropdown-item">Blog Detail</a>
+                                    <a href="course.html" class="dropdown-item"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Flag_of_Morocco_%28blue_green%29.svg/640px-Flag_of_Morocco_%28blue_green%29.svg.png" alt="France" height="13px" width="20px" >&nbsp; Arabe </a> 
+                                    <a href="course.html" class="dropdown-item"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Berber_flag.svg/1200px-Berber_flag.svg.png" alt="France" height="13px" width="20px">&nbsp; Amazigh</a>
+                                    <a href="course.html" class="dropdown-item"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/640px-Flag_of_the_United_Kingdom_%281-2%29.svg.png" alt="France" height="13px" width="20px">&nbsp; English</a>
+                                    <a href="course.html" class="dropdown-item"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/30px-Flag_of_France.svg.png" alt="France" height="13px" width="20px">&nbsp; Francais</a>
+                                    <a href="course.html" class="dropdown-item"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/640px-Bandera_de_Espa%C3%B1a.svg.png" alt="France" height="13px" width="20px">&nbsp; Spanish</a>
+                                    <a href="course.html" class="dropdown-item"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/1280px-Flag_of_Germany.svg.png" alt="France" height="13px" width="20px">&nbsp; Germany</a>
+                                   
                                 </div>
                             </div>
-                            <a href="contact.html" class="nav-item nav-link active">Contact</a>
+                            <a href="course.html" class="nav-item nav-link">Kitchen</a>
+
+                          
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Remedial teaching</a>
+                                <div class="dropdown-menu rounded-0 m-0">
+                                    <a href="course.html" class="dropdown-item"><img src="https://cdn-icons-png.flaticon.com/128/503/503559.png" width="20px" alt=""> &nbsp;First primary school</a>
+                                    <a href="course.html" class="dropdown-item"> <img src="https://cdn-icons-png.flaticon.com/128/503/503559.png" width="20px" alt=""> &nbsp;Second primary school</a>
+                                    <a href="course.html" class="dropdown-item"> <img src="https://cdn-icons-png.flaticon.com/128/503/503559.png" width="20px" alt=""> &nbsp;third primary school</a>
+                                    <a href="course.html" class="dropdown-item"><img src="https://cdn-icons-png.flaticon.com/128/503/503559.png" width="20px" alt=""> &nbsp;fourth primary school</a>
+                                    <a href="course.html" class="dropdown-item"> <img src="https://cdn-icons-png.flaticon.com/128/503/503559.png" width="20px" alt=""> &nbsp;Fifth primary school</a>
+                                    <a href="course.html" class="dropdown-item"> <img src="https://cdn-icons-png.flaticon.com/128/503/503559.png" width="20px" alt=""> &nbsp;sixth grade</a>
+                                    <a href="course.html" class="dropdown-item"> <img src="https://cdn-icons-png.flaticon.com/128/503/503559.png" width="20px" alt=""> &nbsp;First preparatory school</a>
+                                    <a href="course.html" class="dropdown-item"> <img src="https://cdn-icons-png.flaticon.com/128/503/503559.png" width="20px" alt=""> &nbsp;Second preparatory school</a>
+                                    <a href="course.html" class="dropdown-item"> <img src="https://cdn-icons-png.flaticon.com/128/503/503559.png" width="20px" alt=""> &nbsp;Third preparatory school</a>
+                                    <a href="course.html" class="dropdown-item"> <img src="https://cdn-icons-png.flaticon.com/128/503/503559.png" width="20px" alt=""> &nbsp;First secondary</a>
+                                    <a href="course.html" class="dropdown-item"> <img src="https://cdn-icons-png.flaticon.com/128/503/503559.png" width="20px" alt=""> &nbsp;First baccalaureate</a>
+                                    <a href="course.html" class="dropdown-item"> <img src="https://cdn-icons-png.flaticon.com/128/503/503559.png" width="20px" alt=""> &nbsp;Second baccalaureate</a>
+                                </div>
+                            </div>
+                       
+                        <a href="course.html" class="nav-item nav-link">Competitions</a>   
+                 
+                            <a href="contact.php" class="nav-item nav-link active">Contact</a>
                         </div>
                         <a class="btn btn-primary py-2 px-4 ml-auto d-none d-lg-block" href="">Join Now</a>
+                        
                     </div>
                     <div class="nav-item dropdown navbar-nav">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Langue</a>
@@ -126,6 +159,9 @@
                           <a  href="" class="dropdown-item"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/640px-Flag_of_the_United_Kingdom_%281-2%29.svg.png" alt="France" height="13px" width="20px">&nbsp; English</a>
                             <a href="" class="dropdown-item"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/30px-Flag_of_France.svg.png" alt="France" height="13px" width="20px">&nbsp; Francais</a>
                         </div>
+                    </div>
+                  
+                </div>
                 </nav>
             </div>
         </div>
@@ -153,39 +189,49 @@
     <div class="container-fluid py-5">
         <div class="container py-5">
             <div class="text-center mb-5">
-                <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Contact</h5>
-                <h1>Contact For Any Query</h1>
+                <h1 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Contact Us</h1>
+                
+            </div>
+            <div>
+              
+                    
+            
+                 <!--alert messages start-->
+                 <?php echo $alert; ?>
+    <!--alert messages end-->
+
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="contact-form bg-secondary rounded p-5">
                         <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                            <div class="control-group">
-                                <input type="text" class="form-control border-0 p-4" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="control-group">
-                                <input type="email" class="form-control border-0 p-4" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="control-group">
-                                <input type="text" class="form-control border-0 p-4" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="control-group">
-                                <textarea class="form-control border-0 py-3 px-4" rows="5" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="text-center">
-                                <button class="btn btn-primary py-3 px-5" type="submit" id="sendMessageButton">Send Message</button>
-                            </div>
-                        </form>
+                        <form action="" method="post">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email"  name="email"  class="form-control" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control"  name="message"  id="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <input type="submit" name="submit" class="btn btn-primary btn-block border-0 py-3" value="Send">
+            </form>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+     <!--contact section end-->
+
+     <script type="text/javascript">
+    if(window.history.replaceState){
+      window.history.replaceState(null, null, window.location.href);
+    }
+    </script>
     <!-- Contact End -->
 
 
